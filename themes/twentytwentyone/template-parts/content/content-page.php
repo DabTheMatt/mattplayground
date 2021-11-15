@@ -15,6 +15,9 @@
 
 	<?php if ( ! is_front_page() ) : ?>
 		<header class="entry-header alignwide">
+		<div class="breadcrumb-container">
+	    <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
+    </div>
 			<?php get_template_part( 'template-parts/header/entry-header' ); ?>
 			<?php twenty_twenty_one_post_thumbnail(); ?>
 		</header><!-- .entry-header -->

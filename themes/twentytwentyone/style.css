@@ -5977,3 +5977,22 @@ footer {
 .is-IE .post-thumbnail .wp-post-image {
 	min-width: auto;
 }
+
+.breadcrumb-container {
+	width: 100%;
+    background: #d1e4dd;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    list-style: none;
+    background: #d1e4dd;
+    border-radius: 4px;
+}
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover{
+    text-decoration: underline;
+}
