@@ -1,0 +1,325 @@
+CHANGELOG
+=========
+
+OneColumn version 7.3 - july 2021
+- File footer: added ARIA Landmark
+- Updated file style
+
+OneColumn version 7.2 - may 2021
+- Page template file: added wrapper around page content
+- Updated file style
+
+OneColumn version 7.1 - may 2021
+- Removed file sidebar and relocated footer widgets to file footer
+- For users with a child theme: get_sidebar() is removed from all template files
+- Removed jQuery dependency from mobile menu
+- Mobile menu is regular JavaScript now
+- Customizer: you can now set width of logo and add content in footer
+- For users with a child theme: updated files header and footer
+- Several minor adjustments
+
+OneColumn version 7.0 - january 2021
+- Fix: submenu in IE11
+- Fix: submenu in older iOS version
+- Fix: image caption
+- Updated support for screen readers
+
+OneColumn version 6.9 - october 2020
+- Improved accessibility
+- Better support for screen readers
+- Because of this the CSS of main navigation is updated
+- File header: added skip to content link
+- Added ARIA Landmarks in several files
+- Several minor adjustments
+
+OneColumn version 6.8 - may 2020
+- Added extra class to bottom postmeta of single event page
+- Minor changes in code
+- Readme file: updated info about theme features and settings
+
+OneColumn version 6.7 - january 2020
+- Removed support for IE 8 and older
+- Added basic support for new editor
+- Updated head section
+- Changed logo tagline from h2 into div
+- Added class "list-image" to featured image in blog list
+- This class replaces native class "wp-post-image"
+- Removed native class "wp-post-image" from stylesheet
+- Removed unnecessary whitespaces from most files
+- Minor changes in code
+
+OneColumn version 6.6 - july 2018
+- File style: changed CSS of many floating elements
+- File style: removed unnecessary CSS
+- File style: mobile menu update
+- File comments: changed comments-title from h4 into h3
+
+OneColumn version 6.5 - june 2018
+- Fixed mistake in POT file
+- Readme file: removed donate link
+
+OneColumn version 6.4 - june 2018
+- File comments: minor fix
+- Updated file style
+- Updated theme author info
+
+OneColumn version 6.3 - february 2018
+- Several minor adjustments
+- Updated files style and custom-editor-style
+
+OneColumn version 6.2 - february 2018
+- Several minor adjustments
+- Updated file style and functions
+
+OneColumn version 6.1 - february 2018
+- Added a static font-size in body tag
+- Now other font-sizes will scale better
+- Updated h1-h6 headings
+- Updated files style and custom-editor-style
+- Several minor adjustments
+
+OneColumn version 6.0 - november 2017
+- Added new options in customizer for blog page and posts
+- File style: relocated border-bottom from CSS class .more to CSS class .post-list
+
+OneColumn version 5.9 - september 2017
+- Fixed display issue with mobile menu
+- Added div container around mobile menu
+- Updated files header and style
+
+OneColumn version 5.8 - july 2017
+- File style and custom-editor-style: added clear and margin-bottom to headings
+
+OneColumn version 5.7 - june 2017
+- New jQuery navigation for mobile screens
+- Replaced select menu with toggle menu 
+- Files nav, header and style: added and removed code regarding new navigation
+- Files style and custom-editor-style: changed margin of several html tags to avoid margin collapsing
+- If you're using a child theme that contains file header: copy-paste code regarding new navigation
+
+OneColumn version 5.6 - april 2017
+- File single: added post class .post-single
+- File style: changed margin and padding of several elements (layout improvement)
+
+OneColumn version 5.5 - march 2017
+- File style: changed margin of several elements to avoid margin collapsing
+- Cleaned up file style
+- Updated files content-list and custom-editor-style
+- File functions: improved font family registering
+
+OneColumn version 5.4 - march 2017
+- File style: fixed alignment issue of #respond
+
+OneColumn version 5.3 - march 2017
+- File style: minor changes in html tags
+- File style: styling of select tag (cross-browser compatibility)
+- File style: added width and float to several elements (for better alignment)
+- File functions and single: removed post format (status)
+- Several minor adjustments
+
+OneColumn version 5.2 - january 2017
+- Added support for hentry tags
+- Updated files content-postmeta, content-list and single
+- File style: improved comments display
+- File custom-editor-style: removed theme colors (because theme can be customized)
+- Several minor adjustments
+
+OneColumn version 5.1 - october 2016
+- Some logical changes in div elements
+- Files style and sidebar: changed #sidebar into #footer-widgets
+- Files style and header: changed #header-widgets into #homepage-widgets
+- Several minor adjustments
+- New screenshot
+
+OneColumn version 5.0 - august 2016
+- File content-postmeta-single: display post format too
+- Updated text strings
+- Several minor adjustments
+
+OneColumn version 4.9 - august 2016
+- Cleanup: removed unnecessary white space from several files
+- File style: removed unnecessary id tags from several strings
+- File style: updated mobile stylesheet
+- File style and custom-editor-style: several minor adjustments
+- File functions: updated feature for html5 support in ie 8 and older
+- New screenshot
+
+OneColumn version 4.8 - june 2016
+- Files style and custom-editor-style: resized all headings (including line-height)
+- File style: removed line-height from several elements
+
+OneColumn version 4.7 - may 2016
+- Added file content-none 
+- Files 404, archive, index and search: relocated nothing found to separate file
+- Updated file index
+- Renamed both postmetadata files
+- Several minor adjustments
+
+OneColumn version 4.6 - may 2016
+- Theme now supports post formats
+- File header: updated head section
+- Added file content-list 
+- Files archive, index and search: relocated part of loop to separate file
+- File index and style: changed featured post notice
+- File single: changed .page-title-post into .post-title-single
+- Changed .sticky into .sticky-title
+- Several minor adjustments
+
+OneColumn version 4.4 - april 2016
+- Resized all headings (thanks Tom)
+- Changed address tag display
+- Several minor adjustments
+
+OneColumn version 4.3 - march 2016
+- Localized mobile menu
+- Mobile menu now supports 2 level subpages
+
+OneColumn version 4.2 - march 2016
+- Added file postmeta-single
+- File single: relocated postmetadata to separate file
+- Fix in file custom-editor-style: removed tags from reset stylesheet
+- SEO improvement: blog description is h2 (thanks Tom)
+- SEO improvement: all page titles are h1 and all post titles are h2 (thanks Tom)
+- SEO improvement: all widget titles are h3 (thanks Tom)
+- File single: changed title class into .page-title-post
+- Updated readme file to WordPress default
+
+OneColumn version 4.1 - march 2016
+- Added file postmeta
+- Files archive, index, search and single: relocated postmetadata to separate file
+- File style and custom-editor-style: updated html tags (thanks Tom)
+- Updated text strings (thanks Tom)
+- Several minor adjustments
+
+OneColumn version 4.0 - february 2016
+- File search: post nav inside the loop
+- File style: fixed alignment of next and prev post link
+- Several minor adjustments
+
+OneColumn version 3.9 - january 2016
+- File header: removed is_home so homepage content is not displayed when using a static blog page
+- Several minor adjustments
+
+OneColumn version 3.8 - january 2016
+- Updated file style
+- Updated file custom-editor-style
+- Updated file functions
+
+OneColumn version 3.7 - january 2016
+- File style fix: replaced overflow with :after for several floating elements
+- Added div main-content to wrap content, sidebar and footer
+
+OneColumn version 3.6 - december 2015
+- Fix: included the register_default_headers again because it did not work without
+
+OneColumn version 3.5 - december 2015
+- File functions: removed register_default_headers (default header already included in after_setup_theme)
+- Several files: updated postmetadata
+- File style: several modifications
+- Several minor adjustments
+- Updated pot file
+
+OneColumn version 3.4 - november 2015
+- Updated archive.php (added the_archive_title and the_archive_description)
+- Updated pot file
+- Removed translations (to support language packs from wordpress.org)
+- Several minor adjustments
+
+OneColumn version 3.3 - september 2015
+- Updated file comments
+- Updated pagelink
+- File footer: copyrights
+- File archive and index: added pagetitle when no posts are found
+- Changed postmetadata heading into div
+- Reordered mobile stylesheet
+- Added Swedish translation (thanks Stefan)
+- Updated language files
+- Several minor adjustments
+
+OneColumn version 3.2 - june 2015
+- File single: removed if statement
+- File functions, comments and style: changed alignment of comment nav
+- Reordered file style
+- Updated file readme
+
+OneColumn version 3.1 - april 2015
+- Several minor adjustments in stylesheet
+- Removed support for document title in older WP versions 
+- Files index and archive: pagination inside loop
+
+OneColumn version 3.0 - february 2015
+- Added Spanish translation (thanks Miquel)
+- Added German translation (thanks Frank)
+- Updated French translation (thanks Ollie)
+- File style: adjusted styling comments area
+- File style: added support in Chrome for Checkbox, Radio and Select
+- File style and file custom-editor-style: finetuned img position in post and page
+- File style: reordered mobile stylesheet
+- File functions: removed class excerpt because not used anymore
+- File functions: added class to posts nav (now no empty space when posts nav is not present)
+- Removed class .main because not necessary
+
+OneColumn Version 2.9 - december 2014
+- File header: removed wp_title because of new title-tag
+- File functions: added backwards compatibility for WP 4.0 and older
+- Reordered file nav
+
+OneColumn Version 2.8 - december 2014
+- File functions: added title-tag
+- Renamed .article into .main
+- File header: added #header-container
+- Fix: widget title
+- Few minor adjustments for better responsive layout
+- Updated the reset stylesheet
+- Adjusted styling of several tags
+- Reordered and cleaned up files style and custom-editor-style
+- Reordered PHP files
+
+OneColumn Version 2.4 - december 2014
+- Added French translation
+- Several CSS adjustments
+
+OneColumn Version 2.3 - november 2014
+- File functions: added sanitize_callback to logo upload
+- File sidebar and file header: removed double if statement
+- Several CSS adjustments
+
+OneColumn Version 2.2 - october 2014
+- Added and adjusted text markup tags
+
+OneColumn Version 2.1 - june 2014
+- Added several adjustments for better responsive layout
+- Text-align justify for content area, sidebar and footer
+- Several minor adjustments 
+
+OneColumn Version 2.0 - june 2014
+- Changed size of single post image
+- Added featured image on single page
+- Several minor adjustments 
+
+OneColumn Version 1.8 - april 2014
+- Several adjustments in functions file
+- Added pot translation file
+- Improved translation of meta
+- Better position of read more button
+- Better layout of commentsform
+- Added several adjustments for better responsive layout
+- A bunch of other minor adjustments in stylesheet
+
+OneColumn Version 1.7 - february 2014
+- Added html5 support for IE8 and older
+- Added editor styles for page and post
+- Added comments link to metadata in post
+- Added several adjustments for better responsive layout
+- Added translation to footer site info
+- A bunch of other minor adjustments in stylesheet
+
+OneColumn Version 1.6 - january 2014
+- Added custom background and custom logo function (check readme file for instructions)
+- Added several adjustments in file header
+- Added metadata (comments number) to post listing and single post
+- Added new screenshot
+- A bunch of other minor adjustments in stylesheet (navigation, img alignment, mobile stylesheet, etc)
+
+OneColumn version 1.5 - november 2013
+- First stable release
