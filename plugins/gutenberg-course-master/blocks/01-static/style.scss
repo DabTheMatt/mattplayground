@@ -1,0 +1,23 @@
+$black: #222;
+$dark: #3a886d;
+$light: rgb(255, 255, 255);
+
+.entry-content .wp-block-jsforwpblocks-static,
+.wp-block-jsforwpblocks-static {
+
+    background: $light;
+    border: 5px $dark solid;
+    padding: 1rem;
+    border-radius: 10px;
+
+    h2 {
+        color: $black;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+}
